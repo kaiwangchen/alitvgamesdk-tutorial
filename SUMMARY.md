@@ -3,7 +3,7 @@
 * [快速开始](README.md)
 * [集成指南](tutorial/README.md)
    * [工程配置](tutorial/project.md)
-   * [初始化与释放](tutorial/bootstrap.md)
+   * [初始化与清理](tutorial/bootstrap.md)
    * [支付流程](tutorial/pay.md)
    * [数据上报](tutorial/analytics.md)
 * [API 清单](api/README.md)
