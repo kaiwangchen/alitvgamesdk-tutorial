@@ -1,6 +1,6 @@
 # 服务端 Demo
 
-本节介绍[服务端附加流程](../tutorial/pay.md#服务端附加流程)的 Java 实现逻辑。
+本节介绍[服务端附加流程](../tutorial/pay.md#服务端附加流程)的 Java 实现逻辑，完整的源代码托管在[Github](https://github.com/kaiwangchen/alitvgamesdk-serverdemo)。
 
 > 由[支付流程](../tutorial/pay.md)可知服务端附加流程只有特定条件下才触发。
 
