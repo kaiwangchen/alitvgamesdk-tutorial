@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "anchors",
-        "yahei"
+        "anchors"
     ],
     "pluginsConfig": {}
 }
