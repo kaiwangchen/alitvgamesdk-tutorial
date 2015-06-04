@@ -17,4 +17,4 @@ protected void onDestroy() {
 }
 ```
 
-> `APPKEY` 和 `APPSECRET` 是**阿里电视游戏开放平台**分配给游戏的凭据，在开放平台创建游戏即可获得。不同的游戏用不同的凭据，若接入前期分配流程未走完，可以暂用[演示程序](appendix/demo.md)的凭据
+> `APPKEY` 和 `APPSECRET` 是**阿里电视游戏开放平台**分配给游戏的凭据，在开放平台创建游戏即可获得。不同的游戏用不同的凭据，若接入前期分配流程未走完，可以暂用[演示程序的凭据](appendix/credentials.md)。
