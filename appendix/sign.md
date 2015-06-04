@@ -2,7 +2,7 @@
 
 本节介绍平台服务端和商店/游戏服务端之间的 HTTP 交互约定及 HTTP 请求合法性签名计算方法。
 
-> 我们提供了 Java, PHP 和 JavaScript 签名算法参考实现。
+> 我们提供了 Java, PHP 和 JavaScript [签名算法参考实现](https://github.com/kaiwangchen/alitvgamesdk-serverdemo)。
 
 [阿里电视游戏开放平台](http://open.aliplay.com)会为每一个游戏分配一个凭据，包含 `AppKey`, `AppSecret` 和 `BaodianSecret` 三项。但本节的签名算法，只使用 `AppKey` 和 `BaodianSecret` 。
 
