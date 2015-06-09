@@ -39,7 +39,7 @@ OK ，到此为止，我们可以知道，按有没有服务端接收 HTTP 扣�
 > 这个操作必须在 [SDK 初始化](bootstrap.md)完成后发起。
 
 ```java
-    // int amount = 1;
+    // int amount = 1; 单位是宝点（人民币分）
 	// String title = "支付人民币 0.01元";
     AliTvSdk.pay(title, amount,
 		new IPayListener() {
@@ -67,7 +67,7 @@ OK ，到此为止，我们可以知道，按有没有服务端接收 HTTP 扣�
 > 调用这个接口前需先在商店/游戏服务端创建订单，调用时将这个订单号传给 SDK ，平台服务器会在服务端附加流程中将该订单号透传给商店/游戏服务端。
 
 ```java
-    // int amount = 2;
+    // int amount = 2; 单位是宝点（人民币分）
 	// String title = "支付人民币 0.02元";
 	// String orderId = 服务端产生的订单号
 	// String notifyUrl = 服务端接收回调的 HTTP 地址，详见服务端附加流程。
