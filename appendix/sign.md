@@ -13,6 +13,7 @@
 HTTP 请求必须带一个 `sign` 参数，其值按如下计算方法产生。对于一组 `(key1, value1)`, `(key2, value2)`, ... 和本游戏的 `BaodianSecret` ：
 
 1. 将参数按 key 的[**字典序**](http://en.wikipedia.org/wiki/Alphabetical_order)（也称为“字母表顺序”）排列，组成形如 `key1value1key2value2...BaodianSecret` 的字符串
+> 如果某个参数在该 [HTTP 参数表](../api/http.md)中不是“必选”的，那么，只有它的值是非空的，才会出现在参数组中，参与 md5 计算。
 2. 计算该字符串的 **GBK 编码字节序列**的 md5 校验码
 > MD5 校验码计算过程的输入是字节序列，而不是字符串。在有些编程语言中，字符串是有内部编码的，如 Java 和 JavaScript 都是用 UTF-16 内码；而在另一些编程语言则没有字符串内部编码，如 PHP 。因此，在计算签名时，需要先转换成 GBK 编码字节流（ASCII 和 GBK 是兼容的，所以，纯 ASCII 字符串不必转换）。显然，这是一个设计缺陷，但还没有修订。
 
