@@ -15,4 +15,5 @@
    * [Lib 工程](appendix/lib.md)
    * [服务端 Demo](appendix/serverdemo.md)
    * [签名算法](appendix/sign.md)
+   * FAQ
 
