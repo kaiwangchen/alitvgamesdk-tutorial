@@ -3,8 +3,8 @@
 除了 Eclipse 配置外，Lib 工程里只有`AndroidManifest.xml`（定义各种权限、Activity 、Service 和 Broadcast Receiver 等）、类库和 UI 资源。
 
 ```
-AliTvAndroidSDKLib
-  |-- libs/AliTvAndroidSDK-1.0.0.0.jar
+AlitvSDKLib
+  |-- libs/*.jar
   |-- res
   |    |-- drawable-*/*
   |    |-- layout/ali_de_bd_*.xml
@@ -14,7 +14,7 @@ AliTvAndroidSDKLib
 
 事实上，Lib 中是类库工程：
 
-* AliTvAndroidSDKLib/project.properties
+* AlitvSDKLib/project.properties
 ```
 android.library=true
 ```
