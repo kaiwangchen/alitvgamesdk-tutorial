@@ -7,7 +7,13 @@
 ```java
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    AliTvSdk.init(APPKEY, APPSECRET, this);
+     AliTvSdk.init(mContext, appkey, appSecret, new IInitListener() {
+            @Override
+            public void onInitFinish() {
+                TestToast.show("init aliTvSdk ok. get auth = " + AliTvSdk.Account.isAuth());
+				}, 
+				
+			null);
     // ...
 }
 protected void onDestroy() {
