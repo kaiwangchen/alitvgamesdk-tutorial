@@ -4,10 +4,10 @@
 
 将 Lib 工程展开为游戏工程的平级目录，照抄 Demo 工程的 `project.properties` 那两项，就完成了工程配置。
 
-* AliTvAndroidSDKDemo/project.properties
+* AlitvSDKDemo/project.properties
 ```
 manifestmerger.enabled=true
-android.library.reference.1=../AliTvAndroidSDKLib
+android.library.reference.1=../AlitvSDKLib
 ```
 
 你没看错，这是 Android Manifest Merger 带来的便利。Lib 工程的 manifest 会被自动合并到 Demo 工程中。
